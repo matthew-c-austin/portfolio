@@ -1,17 +1,17 @@
 {
     "basic_info": {
       "name": "Matt Austin",
-      "titles": [ "Software Developer" ],
+      "titles": [ "Born Again Web Developer | Reformed Aerospace Engineer" ],
       "social": [
         {
           "name": "github",
-          "url": "https://github.com",
+          "url": "https://github.com/matthew-c-austin",
           "class": "fab fa-github"
         },
         {
-          "name": "instagram",
-          "url": "https://www.instagram.com",
-          "class": "fab fa-instagram"
+          "name": "linkedin",
+          "url": "https://www.linkedin.com/in/matthewcaustin/",
+          "class": "fab fa-linkedin-in"
         }
       ],
       "image": "myProfile.jpg"
