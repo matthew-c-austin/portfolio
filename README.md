@@ -23,3 +23,13 @@ Start time: 1/21/2023 13:18
 Finish time: 1/21/2023 14:01
 
 Actual time needed to complete: 43 minutes
+
+### Projects Section
+
+Estimate of time needed to complete: 60 minutes
+
+Start time: 1/21/2023 14:05
+
+Finish time: 1/21/2023 
+
+Actual time needed to complete:  minutes
