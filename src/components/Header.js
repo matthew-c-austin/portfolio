@@ -1,14 +1,15 @@
-import React, { Component } from "react";
-import Switch from "@brookr/react-switch";
-import Nav from 'react-bootstrap/Nav'
-import { LinkContainer } from "react-router-bootstrap";
+/* eslint-disable no-unused-vars */
+import React, { Component } from 'react';
+import Switch from '@brookr/react-switch';
+import Nav from 'react-bootstrap/Nav';
+import { LinkContainer } from 'react-router-bootstrap';
 
 class Header extends Component {
   titles = [];
 
   constructor() {
     super();
-    this.state = { checked: false };
+    this.state = { checked: true };
     this.onThemeSwitchChange = this.onThemeSwitchChange.bind(this);
   }
 
@@ -18,10 +19,10 @@ class Header extends Component {
   }
 
   setTheme() {
-    var dataThemeAttribute = "data-theme";
+    var dataThemeAttribute = 'data-theme';
     var body = document.body;
     var newTheme =
-      body.getAttribute(dataThemeAttribute) === "dark" ? "light" : "dark";
+      body.getAttribute(dataThemeAttribute) === 'dark' ? 'light' : 'dark';
     body.setAttribute(dataThemeAttribute, newTheme);
   }
 
@@ -32,7 +33,7 @@ class Header extends Component {
     }
 
     const HeaderTitleTypeAnimation = React.memo( () => {
-      return this.titles
+      return this.titles;
     }, (props, prevProp) => true);
 
     return (
@@ -45,18 +46,18 @@ class Header extends Component {
           </svg>
         </a>
         <Nav activeKey="/home" fill style={{ position: 'absolute', top: 10, right: 10 }}>
-          <Nav.Item> 
+          <Nav.Item>
             <LinkContainer to="/">
               <Nav.Link href="/">Home</Nav.Link>
             </LinkContainer>
           </Nav.Item>
-          <Nav.Item>        
+          <Nav.Item>
             <LinkContainer to="/about">
               <Nav.Link eventKey="about">About</Nav.Link>
             </LinkContainer>
           </Nav.Item>
           <Nav.Item>
-            <Switch 
+            <Switch
               checked={this.state.checked}
               onChange={this.onThemeSwitchChange}
               offColor="#baaa80"
@@ -70,12 +71,12 @@ class Header extends Component {
                   data-icon="twemoji:owl"
                   data-inline="false"
                   style={{
-                    display: "block",
-                    height: "100%",
+                    display: 'block',
+                    height: '100%',
                     fontSize: 25,
-                    textAlign: "end",
-                    marginLeft: "20px",
-                    color: "#353239",
+                    textAlign: 'end',
+                    marginLeft: '20px',
+                    color: '#353239',
                   }}
                 ></span>
               }
@@ -85,12 +86,12 @@ class Header extends Component {
                   data-icon="noto-v1:sun-with-face"
                   data-inline="false"
                   style={{
-                    display: "block",
-                    height: "100%",
+                    display: 'block',
+                    height: '100%',
                     fontSize: 25,
-                    textAlign: "end",
-                    marginLeft: "10px",
-                    color: "#353239",
+                    textAlign: 'end',
+                    marginLeft: '10px',
+                    color: '#353239',
                   }}
                 ></span>
               }
@@ -109,7 +110,7 @@ class Header extends Component {
               <div className="title-container">
                 <HeaderTitleTypeAnimation />
               </div>
-              
+
             </div>
           </div>
         </div>
