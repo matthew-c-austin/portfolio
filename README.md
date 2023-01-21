@@ -30,6 +30,16 @@ Estimate of time needed to complete: 60 minutes
 
 Start time: 1/21/2023 14:05
 
-Finish time: 1/21/2023 
+Finish time: 1/21/2023 14:52
 
-Actual time needed to complete:  minutes
+Actual time needed to complete: 47 minutes
+
+### Experience Section
+
+Estimate of time needed to complete: 60 minutes
+
+Start time: 1/21/2023 15:05
+
+Finish time: 1/21/2023 15:43
+
+Actual time needed to complete: 38 minutes

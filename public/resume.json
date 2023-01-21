@@ -89,7 +89,7 @@
       {
         "title": "Fruits and Friends",
         "startDate": "2022",
-        "description": "Fruits and Friends is a fun game between two players that takes elements of pattern matching and strategy and combines them with cute animal friends and tasty fruits! This game let's you play against a friend or against an adaptive difficulty AI built with a minimax algorithm aptly named 'Deep Fish'",
+        "description": "Fruits and Friends is a fun game between two players that takes elements of pattern matching and strategy and combines them with cute animal friends and tasty fruits! This game let's you play against a friend or against an adaptive difficulty AI built with a minimax algorithm aptly named 'Deep Fish' 🐟🖥️.",
         "images": [
           "images/portfolio/fruits-and-friends/fruits-and-friends-1.png",
           "images/portfolio/fruits-and-friends/fruits-and-friends-2.png",
@@ -114,37 +114,92 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Code Fellows",
+        "title": "Student",
+        "years": "04.2023 - 06.2023",
         "mainTech": [
-          "Angular 8/9/10"
+          "Software Development in Java"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "Java",
+          "SpringMVC",
+          "Thymeleaf",
+          "Spring Security",
+          "Android",
+          "Spring Security",
+          "OkHTTP",
+          "AWS",
+          "PostGres",
+          "SQLite"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Code Fellows",
+        "title": "Student",
+        "years": "09.2022 - 03.2023",
         "mainTech": [
-          "Angular 7/8"
+          "Software Development in JavaScript"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
           "JavaScript",
-          "DHTMLX Gantt"
+          "HTML5",
+          "CSS3",
+          "React",
+          "Bootstrap",
+          "ExpressJS",
+          "MongoDB",
+          "Heroku",
+          "Netlify",
+          "VS Code"
+        ]
+      },
+      {
+        "company": "The Boeing Company",
+        "title": "Lead Stress Engineer",
+        "years": "10.2019 - present",
+        "mainTech": [
+          "Structural Analysis Engineering"
+        ],
+        "technologies": [
+          "VBA",
+          "Boeing Software Analysis Tools",
+          "MATLAB",
+          "Python",
+          "Abaqus",
+          "Nastran/Patran",
+          "Azure"
+        ]
+      },
+      {
+        "company": "The Boeing Company",
+        "title": "Stress Engineer",
+        "years": "06.2015 - 10.2019",
+        "mainTech": [
+          "Structural Analysis Engineering"
+        ],
+        "technologies": [
+          "VBA",
+          "Boeing Software Analysis Tools",
+          "MATLAB",
+          "Python",
+          "Abaqus",
+          "Nastran/Patran"
+        ]
+      },
+      {
+        "company": "Spirit Aerosystems",
+        "title": "Stress Engineer",
+        "years": "10.2011 - 05.2015",
+        "mainTech": [
+          "Structural Analysis Engineering"
+        ],
+        "technologies": [
+          "VBA",
+          "Boeing Software Analysis Tools",
+          "MATLAB",
+          "Python",
+          "Abaqus",
+          "Nastran/Patran"
         ]
       }
     ]
