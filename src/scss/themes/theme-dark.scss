@@ -11,12 +11,16 @@ body[data-theme="dark"] {
    }
 
    .header-icon {
-      color: #3C342C;
+      color: white;
       opacity: 0.8;
    }
 
    .slider-image {
       border: 5px solid #8C8C8C;
+   }
+
+   .language {
+      background-color: #494949;
    }
 
    .link-href {
@@ -29,10 +33,11 @@ body[data-theme="dark"] {
    }
 
    header {
-      background-color: #494949;
+      background-color: hsl(168, 86%, 15%);
       h1 {
          color: white;
       }
+      color: white;
    }
 
    #about {
@@ -50,7 +55,7 @@ body[data-theme="dark"] {
    }
 
    #portfolio {
-      background: #5b5b5b;
+      background: hsl(168, 86%, 15%);
       .section-title {
          color: white !important;
       }
@@ -64,7 +69,7 @@ body[data-theme="dark"] {
 
    #resume {
       filter: brightness(80%);
-      background: #5b5b5b;
+      background: hsl(168, 86%, 15%);
       .section-title {
          color: white !important;
       }
